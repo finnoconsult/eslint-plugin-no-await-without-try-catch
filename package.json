@@ -1,0 +1,11 @@
+{
+  "name": "eslint-plugin-no-await-without-try-catch",
+  "version": "1.0.0",
+  "description": "eslint plugin that enforces to use async await with try catch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "phollaki",
+  "license": "ISC"
+}
