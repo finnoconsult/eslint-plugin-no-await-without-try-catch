@@ -13,6 +13,7 @@ And configure your `.eslintrc` file accordingly. For example:
     ],
     "rules": {
         "safeasync/no-await-without-trycatch": "warn",
+        "safeasync/no-await-without-trycatch-in-callback": "warn",
     }
 }
 ```
