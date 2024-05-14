@@ -1,11 +1,27 @@
 {
-  "name": "eslint-plugin-no-await-without-try-catch",
-  "version": "1.0.0",
+  "name": "eslint-plugin-safeasync",
+  "version": "1.0.2",
   "description": "eslint plugin that enforces to use async await with try catch",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha 'tests/**/*.spec.js'"
   },
   "author": "phollaki",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "lint"
+  ],
+  "peerDependencies": {
+    "eslint": ">=8.56.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.56.10",
+    "@typescript-eslint/parser": "^7.9.0",
+    "@typescript-eslint/utils": "^7.9.0",
+    "eslint": "^8.56.0",
+    "mocha": "^10.4.0"
+  }
 }
