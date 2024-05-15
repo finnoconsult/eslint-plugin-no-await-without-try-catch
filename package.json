@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-safeasync",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "eslint plugin that enforces to use async await with try catch",
   "main": "./lib/index.js",
   "scripts": {
